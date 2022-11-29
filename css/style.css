@@ -1,3 +1,7 @@
+section {
+    height: 600px;
+    margin-bottom: 20px;
+}
 
 .dark-bar {
     background-color: black;
@@ -11,6 +15,20 @@
     height: 20px;
 }
 
+.play-5 {
+    height: 40%;
+}
+
+.image-listing {
+    height: 7rem;
+    padding: 20px;
+}
+
+.image-games {
+    height: 10rem;
+    padding: 20px;
+}
+
 .fa-magnifying-glass {
     font-size: 1.5rem;
     padding-left: 10px;
@@ -21,13 +39,24 @@
 /*jubo*/
 
 #main-jumbo {
-    height: 500px;
+    height: 600px;
     padding: 5%;
     background-image: url(../img/jumbo-bg.png);
+}
+
+#jumbo-take {
+    height: 700px;
+    padding: 5%;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
 .jumbotron {
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
+}
+
+.games {
+    height: 600px;
+    background-color: #1f1f1f;
 }
