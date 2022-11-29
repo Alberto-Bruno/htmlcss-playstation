@@ -25,7 +25,7 @@ section {
 }
 
 .image-games {
-    height: 10rem;
+    height: 12rem;
     padding: 20px;
 }
 
@@ -50,6 +50,11 @@ section {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
+#jumbo-explore {
+    height: 500px;
+    background-color: #bebcbb;
+}
+
 .jumbotron {
     background-size: cover;
     background-position: top center;
@@ -57,6 +62,14 @@ section {
 }
 
 .games {
-    height: 600px;
+    min-height: 600px;
     background-color: #1f1f1f;
+}
+
+.ps-plus {
+    height: 475px;
+}
+
+.ps-logo {
+    height: 15%;
 }
