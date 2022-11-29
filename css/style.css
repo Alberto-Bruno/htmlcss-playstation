@@ -1,6 +1,33 @@
+
+.dark-bar {
+    background-color: black;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.sony-logo {
+    height: 20px;
+}
+
 .fa-magnifying-glass {
     font-size: 1.5rem;
     padding-left: 10px;
     position: relative;
-    top: 5px;
+    top: 7px;
+}
+
+/*jubo*/
+
+#main-jumbo {
+    height: 500px;
+    padding: 5%;
+    background-image: url(../img/jumbo-bg.png);
+}
+
+.jumbotron {
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
 }
