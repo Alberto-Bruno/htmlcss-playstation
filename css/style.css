@@ -1,7 +1,8 @@
 section {
-    height: 600px;
+    min-height: 500px;
     margin-bottom: 20px;
 }
+
 
 .dark-bar {
     background-color: black;
@@ -55,6 +56,12 @@ section {
     background-color: #bebcbb;
 }
 
+#jumbo-playnow {
+    height: 500px;
+    background-color: #161c3b;
+}
+
+
 .jumbotron {
     background-size: cover;
     background-position: top center;
@@ -68,8 +75,23 @@ section {
 
 .ps-plus {
     height: 475px;
+    padding: 15px;
 }
 
 .ps-logo {
     height: 15%;
+}
+
+.img-social {
+    height: 100px;
+}
+
+/*Footer*/
+
+.globe {
+    height: 20px;
+}
+
+.sie-logo {
+    height: 50px;
 }
